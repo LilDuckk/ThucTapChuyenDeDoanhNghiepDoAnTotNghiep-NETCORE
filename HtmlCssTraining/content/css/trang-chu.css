@@ -1,0 +1,23 @@
+.dv-body .content-dong .tc-nsx-box{
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 20px;
+    height: 80px;
+}
+
+.dv-body .content-dong .title-dong{
+    background: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #21385d;
+    position: absolute;
+    margin-top: -14px;
+    left: 45px;
+    z-index: 99;
+    text-transform: uppercase;
+    padding: 0 9px;
+}
