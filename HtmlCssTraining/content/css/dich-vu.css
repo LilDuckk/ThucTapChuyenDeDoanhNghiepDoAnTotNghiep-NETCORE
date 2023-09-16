@@ -24,15 +24,6 @@ header .logo:hover #slide  {
 
 }
 
-html .slideright {
-	width: 1000px;
-	overflow: auto;
-	animation: hide-scroll 3s backwards;
-}
-
-@keyframes hide-scroll {
-	from, to { overflow: hidden; } 
-  }
 
 #slideleft {
 	position: absolute;
