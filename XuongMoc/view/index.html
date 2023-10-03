@@ -21,7 +21,9 @@
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -29,11 +31,12 @@
     <!-- BEGIN: header -->
     <header>
         <nav class="navbar container">
-            <div class="navbar-logo w-25">
+            <div class="navbar-logo w-25 logo">
                 <img src="../images/logo.png" alt=" " class="">
+                <i class="fa-solid fa-bars" style="display: none;" onclick="handleClickMenu()"></i>
             </div>
             <!-- <i class="fa-solid fa-bars d-block d-none" onclick="handleClickMenu()"></i> -->
-            <ul class="navbar-menu d-flex justify-content-between w-50">
+            <ul class="menu navbar-menu d-flex justify-content-between w-50" id="menu">
                 <li class="menu-item selected">
                     <a href="../view/index.html">TRANG CHỦ</a>
                 </li>
@@ -69,8 +72,7 @@
                 <p class="w-50 text-justify">Sứ mệnh của chúng tôi là kết hợp hài hòa giữa ý tưởng và mong muốn của
                     khách hàng, đem lại những phút giây thư giãn tuyệt vời bên gia đình và những người thấn yêu</p>
                 <button class="btn btn-gold rounded-0 bg-gold px-4 py-2"><a href="../view/contact.html"
-                        class="text-white">LIÊN
-                        HỆ NGAY</a></button>
+                        class="text-white">LIÊN HỆ NGAY</a></button>
             </div>
         </section>
         <!-- END: Banner -->
@@ -549,7 +551,7 @@
             });
         });
         const handleClickMenu = () => {
-            document.querySelector(".menu").classList.toggle("responsive-menu")
+            document.querySelector(".navbar-menu").classList.toggle("responsive-menu")
         }
     </script>
 

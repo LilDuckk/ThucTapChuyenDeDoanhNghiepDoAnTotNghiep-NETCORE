@@ -35,7 +35,7 @@ header nav .menu {
 header nav .menu-item a {
     position: relative;
     line-height: 2rem;
-    /* line-height: 2rem; */
+    
 }
 
 header nav .selected::after,

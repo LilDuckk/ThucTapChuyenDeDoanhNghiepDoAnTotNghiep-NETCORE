@@ -235,9 +235,14 @@ footer .contact ul li:last-child div {
         padding-right: 0;
     }
 
-    header nav .menu {
-        display: none;
+    header nav ul  {
+        display: none !important;
     }
+
+    .d-flex{
+        display: none !important ;
+    }
+
 
     header .logo {
         display: flex;
@@ -247,43 +252,49 @@ footer .contact ul li:last-child div {
     }
 
     header .logo img {
-        width: 10% !important;
+        width: 20% !important;
+        margin-left: -100px;
         padding-bottom: 1rem;
     }
 
-    header nav .responsive-menu {
+    header .navbar .responsive-menu {
         margin-top: 0.5rem;
-        display: block;
+        display: block !important;
         width: 100%;
         background-color: #bd945f;
         animation: xx 300ms ease-in-out;
         transform-origin: top center;
     }
 
-    header nav .responsive-menu>.menu-item {
+    header .navbar .responsive-menu>.menu-item {
 
         animation: yy 800ms ease-in-out;
         transform-origin: left;
         /* animation-delay: 500ms; */
     }
 
-    header nav .responsive-menu .menu-item {
+    header .navbar .responsive-menu .menu-item {
         padding: 0 2rem;
     }
 
-    header nav .responsive-menu .menu-item a {
+    header .navbar .responsive-menu .menu-item a {
         color: #f3f3f3;
         border-bottom: 1px solid #f3f3f3;
         display: block;
         line-height: 3.2rem;
     }
 
-    header nav .responsive-menu .menu-item:last-child a {
+    header .navbar .responsive-menu .menu-item:last-child a {
         border-bottom: none !important;
     }
 
     .fa-bars {
+        margin-right: -100px;
         display: block !important;
+    }
+
+    .container {
+        width: 100%;
     }
 
     @keyframes xx {

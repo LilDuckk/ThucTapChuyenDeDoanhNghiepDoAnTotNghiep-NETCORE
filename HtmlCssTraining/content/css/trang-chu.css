@@ -62,10 +62,14 @@
     height: 80px;
 	margin-left: 100px;
 	margin-top: -5px;
-    /* -webkit-animation: slideleft 15s forwards;
-    -webkit-animation-delay: 2s; */
+    -webkit-animation: slideleft 15s forwards;
+    -webkit-animation-delay: 2s;
     animation: slideleft 15s linear infinite;
     animation-delay: 0.1s;
+}
+
+@-webkit-keyframes slideright {
+    100% { right: 0; }
 }
 
 @keyframes slideleft {
